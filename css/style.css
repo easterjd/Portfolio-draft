@@ -1,0 +1,48 @@
+#navbarNav {
+  justify-content: center;
+}
+
+.navbar-brand {
+  background-color: #000000;
+}
+
+.nav-item:hover {
+  background-color: #000000;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* .flexContainer {
+  display: flex;
+} */
+
+.profpic {
+  border: 1px;
+  border-radius: 50%;
+  grid-area: pic;
+  z-index: 99;
+}
+
+img {
+  opacity: 0.75;
+}
+
+img:hover {
+  opacity: 1.00;
+}
+
+.card {
+  background-color: rgba(255,255,255,0.85);
+  justify-content: space-around;
+  grid-area: card;
+}
+
+.transp {
+  background-color: rgba(255,255,255,0.85);
+}
